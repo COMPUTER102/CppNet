@@ -21,7 +21,7 @@ jobs:
     - name: cd_build
       run:  cd build
     - name: cmake
-      run:  cmake /home
+      run:  cmake /home/CppNet
     - name: make
       run:  make
       
